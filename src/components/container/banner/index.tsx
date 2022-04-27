@@ -3,12 +3,15 @@ import React from 'react'
 import watch from '../../../assets/images/watch.png'
 import cart from '../../../assets/icons/addtocart.png'
 import btnlogo from '../../../assets/images/btnlogo.png'
+import eyewear from '../../../assets/images/eyewear.png'
+import demowatch from '../../../assets/images/demowatch.png'
+
 import { LeftOutlined, RightOutlined, ShoppingCartOutlined } from '@ant-design/icons'
 
 function Banner() {
   return (
-    <div style={{height:500, backgroundColor:'#F1DDC9'}}>
-      <Row>
+    <div >
+      <Row style={{height:500, backgroundColor:'#F1DDC9'}}>
         <Col span={9}>
           <Image preview={false} style={{marginTop:110}} src={watch}/>
         </Col>
@@ -33,6 +36,41 @@ function Banner() {
             </Col>
             <Col>
             <Button type='primary' style={{backgroundColor:'#D84727',height:50,width:50,marginLeft:10}} icon={<RightOutlined style={{color:'#fff',fontSize:22}}/>}/>
+            </Col>
+          </Row>
+        </Col>
+      </Row>
+      <Row style={{marginTop:120,marginBottom:50}}>
+        <Col style={{height:260,backgroundColor:'white',padding:25,width:475}}>
+          <Row>
+            <Col style={{fontSize:28,fontFamily:'Taviraj',marginRight:5}}>Luxurious</Col>
+            <Col style={{fontSize:28,fontFamily:'Taviraj',fontWeight:'bold'}}>Eyewear</Col>
+          </Row>
+          <Col style={{fontSize:18,fontFamily:'TaviRaj',fontWeight:'200',width:320,color:'gray'}}>See the beauty of exotic world with the luxurious glasses</Col>
+          <Row>
+            <Col span={8}>
+              <Col style={{fontSize:18,fontFamily:'TaviRaj',fontWeight:'bold',}}>Discover Now</Col>
+              <Col style={{height:1,width:106,backgroundColor:'black'}}></Col>
+            </Col>
+            <Col span={16}>
+              <Image preview={false} src={eyewear}/>
+            </Col>
+          </Row>
+        </Col>
+        <Col style={{width:22}}></Col>
+        <Col style={{height:260,backgroundColor:'white',padding:25,width:475}}>
+        <Row>
+            <Col style={{fontSize:28,fontFamily:'Taviraj',marginRight:5}}>Comfortable</Col>
+            <Col style={{fontSize:28,fontFamily:'Taviraj',fontWeight:'bold'}}>Watches</Col>
+          </Row>
+          <Col style={{fontSize:18,fontFamily:'TaviRaj',fontWeight:'200',width:320,color:'gray'}}>Feels the balancing function and beauty in our wooden watches</Col>
+          <Row>
+            <Col span={16}>
+              <Col style={{fontSize:18,fontFamily:'TaviRaj',fontWeight:'bold',}}>Discover Now</Col>
+              <Col style={{height:1,width:106,backgroundColor:'black'}}></Col>
+            </Col>
+            <Col span={8}>
+              <Image preview={false} src={demowatch}/>
             </Col>
           </Row>
         </Col>
