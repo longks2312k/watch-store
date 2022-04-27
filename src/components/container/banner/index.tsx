@@ -1,7 +1,6 @@
 import { Button, Col, Image, Row } from 'antd'
 import React from 'react'
 import watch from '../../../assets/images/watch.png'
-import cart from '../../../assets/icons/addtocart.png'
 import btnlogo from '../../../assets/images/btnlogo.png'
 import eyewear from '../../../assets/images/eyewear.png'
 import demowatch from '../../../assets/images/demowatch.png'
