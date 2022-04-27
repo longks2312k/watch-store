@@ -8,7 +8,7 @@ import search from '../../assets/icons/search.png'
 function Header() {
   return (
     <div>
-      <Row style={{height: 80, padding:'25px 165px 0 165px'}}>
+      <Row style={{height: 120, paddingTop:25}}>
         <Col span={6} style={{marginTop:5}}>
           <Image preview={false} src={logo}/>
         </Col>

@@ -1,10 +1,12 @@
 import React from 'react'
+import Banner from '../../components/container/banner'
 import Header from '../../components/header'
 
 function Home() {
   return (
-    <div>
+    <div style={{paddingLeft: 165,paddingRight:165}}>
       <Header/>
+      <Banner/>
     </div>
   )
 }
