@@ -10,9 +10,9 @@ import { LeftOutlined, RightOutlined, ShoppingCartOutlined } from '@ant-design/i
 function Banner() {
   return (
     <div >
-      <Row style={{height:500, backgroundColor:'#F1DDC9'}}>
+      <Row style={{backgroundColor:'#F1DDC9'}}>
         <Col span={9}>
-          <Image preview={false} style={{marginTop:110}} src={watch}/>
+          <Image preview={false} style={{marginTop:110,marginBottom:-75}} src={watch}/>
         </Col>
         <Col span={11}>
           <Col style={{marginTop:56}}>
@@ -29,12 +29,12 @@ function Banner() {
           </Row>
         </Col>
         <Col span={4}>
-          <Row style={{marginTop:474}}>
+          <Row style={{marginBottom:-75,marginTop:475}}>
             <Col>
               <Button type='text' style={{borderColor:'#D84727',height:50,width:50}} icon={<LeftOutlined style={{color:'#D84727',fontSize:22}}/>}/>
             </Col>
             <Col>
-            <Button type='primary' style={{backgroundColor:'#D84727',height:50,width:50,marginLeft:10}} icon={<RightOutlined style={{color:'#fff',fontSize:22}}/>}/>
+              <Button type='text' style={{backgroundColor:'#D84727',height:50,width:50,marginLeft:10}} icon={<RightOutlined style={{color:'#fff',fontSize:22}}/>}/>
             </Col>
           </Row>
         </Col>

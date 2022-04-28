@@ -10,7 +10,7 @@ function Recentnews() {
         <Col span={7}>
           <Col style={{marginBottom:220}}>
             <Col style={{fontSize:32,fontFamily:'Taviraj'}}>Recent News</Col>
-            <Col style={{height:1,width:128,backgroundColor:'black'}}></Col>
+            <Col style={{height:1,width:100,backgroundColor:'black'}}></Col>
           </Col>
           <Col style={{}}>
             <Col style={{fontSize:16,fontFamily:'Taviraj',fontWeight:'200',color:'gray'}}>Where To Travel</Col>
