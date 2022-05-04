@@ -24,7 +24,7 @@ function Banner() {
             <Col style={{height:1,width:65,backgroundColor:'#000000'}}></Col>
           </Col>
           <Row style={{marginTop:50}}>
-            <Button style={{height:50,width:160,backgroundColor:'#D84727'}} type='primary' icon={<ShoppingCartOutlined style={{fontSize:18}} />}>Add To Cart</Button>
+            <Button style={{height:50,width:160,backgroundColor:'#D84727',color:'white'}} type='text' icon={<ShoppingCartOutlined style={{fontSize:18,color:'white'}} />}>Add To Cart</Button>
             <Button style={{height:50,width:120,borderColor:'#D84727',marginLeft:10}} type='text' icon={<Image preview={false} src={btnlogo}/>}></Button>
           </Row>
         </Col>
